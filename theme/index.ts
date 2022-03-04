@@ -11,10 +11,10 @@ const breakpoints = createBreakpoints({
 
 export const theme = extendTheme({
   breakpoints,
-  // fonts: {
-  //   heading: 'Montserrat',
-  //   body: 'Montserrat',
-  // },
+  fonts: {
+    heading: 'Open Sans, sans-serif',
+    body: 'Raleway, sans-serif',
+  },
 })
 
 export * from './colors'

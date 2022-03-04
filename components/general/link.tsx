@@ -1,16 +1,16 @@
 import React from 'react'
-import { Text, TextProps } from '@chakra-ui/react'
+import { Link, LinkProps } from '@chakra-ui/react'
 import { Color, FontSize } from 'theme'
 
-export const AppText = ({ children, ...props }: TextProps) => {
+export const AppLink = ({ children, ...props }: LinkProps) => {
   return (
-    <Text
+    <Link
       color={Color.black}
       fontSize={FontSize.paragraph}
       fontWeight="400"
       {...props}
     >
       {children}
-    </Text>
+    </Link>
   )
 }

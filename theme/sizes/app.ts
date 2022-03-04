@@ -6,15 +6,10 @@ export const FontSize = {
 }
 
 export const BorderSize = {
-  borderButton: ['10px', '10px', '10px', '10px'],
+  button: ['10px', '10px', '10px', '10px'],
 }
 
 export const ButtonSize = {
-  mediumHeight: ['45px', '50px', '50px', '50px'],
-  mediumWidth: ['110px', '150px', '150px', '150px'],
-}
-
-export const InputSize = {
-  smallHeight: ['30px', '35px', '40px', '40px'],
-  smallWidth: ['100px', '115px', '120px', '120px'],
+  mediumHeight: ['20px ', '20px ', '25px ', '25px '],
+  mediumWidth: ['40px', '40px', '50px', '50px'],
 }
